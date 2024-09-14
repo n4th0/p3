@@ -8,10 +8,11 @@ import java.util.Arrays;
  * first class made in java for programming 3 subject 
  * @author n4th0
  */
-public class Coordinate {
+public final class Coordinate {
 	private double components[];
 
 	/**
+     * constructor
 	 * @param double [] components
 	 */
 	public Coordinate(double components[]){
@@ -20,6 +21,7 @@ public class Coordinate {
 			return;
 		}
 
+        // defensive copy
 		double comp[] = new double[components.length];
 		for (int i = 0; i < components.length; i++) {
 			comp[i] = components[i];
@@ -38,6 +40,7 @@ public class Coordinate {
 
 	/**
 	 * @return the components of the class
+	 * i'm using the defensive compy to make the class unmutable
 	 */
 	public double [] getComponents(){
 		double comp[] = new double[this.getDimensions()];
@@ -48,6 +51,7 @@ public class Coordinate {
 	}
 
 	/**
+     * getter
 	 * @return the components length
 	 */
 	public int getDimensions(){
@@ -76,6 +80,5 @@ public class Coordinate {
 		Coordinate other = (Coordinate) obj;
 		return Arrays.equals(components, other.components);
 	}
-
 
 }
