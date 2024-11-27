@@ -17,7 +17,7 @@ public class Rectangle extends AbstractPolygon{
     /**
      * Instance atribute: width.
      * The length of the width.
-     */s
+     */
     private double width;
 
     /**
@@ -26,9 +26,10 @@ public class Rectangle extends AbstractPolygon{
      * to 0 and the position as not defined {@link Coordinate}.
      */
 	public Rectangle() {
+        this.move(new Coordinate());
         length = 0;
         width = 0;
-        position = new Coordinate();
+        //position = new Coordinate();
 	}
 
     /**
@@ -44,7 +45,8 @@ public class Rectangle extends AbstractPolygon{
         if (b <0 || d <0) 
             throw new IllegalArgumentException();
         
-        position = new Coordinate(c);
+        // position = new Coordinate(c);
+        this.move(new Coordinate(c));
         length = b;
         width = d;
 
@@ -59,9 +61,10 @@ public class Rectangle extends AbstractPolygon{
      * @param r {@link Rectangle}
      */
 	public Rectangle(Rectangle r) {
+        move(r.getPosition());
         this.length = r.length;
         this.width = r.width;
-        position = new Coordinate(r.position);
+        //position = new Coordinate(r.position);
 	}
 
     /**

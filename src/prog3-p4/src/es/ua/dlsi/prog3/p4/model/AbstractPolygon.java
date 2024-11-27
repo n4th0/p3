@@ -21,7 +21,8 @@ public abstract class AbstractPolygon extends Shape2D {
      * position.
      */
 	protected AbstractPolygon() {
-        position = new Coordinate();
+        super(new Coordinate());
+        //position = new Coordinate();
         angle = 0;
 	}
 
@@ -34,10 +35,11 @@ public abstract class AbstractPolygon extends Shape2D {
      * @param d double angle
      */
     protected AbstractPolygon(Coordinate c, double d){
+        super(new Coordinate(c));
         if (d<0 || d>=360) 
             throw new IllegalArgumentException("bad angle");
 
-        position = new Coordinate(c);
+        //position = new Coordinate(c);
         angle = d;
     }
 
@@ -48,7 +50,8 @@ public abstract class AbstractPolygon extends Shape2D {
      * @param a {@link AbstractPolygon} object
      */
     protected AbstractPolygon(AbstractPolygon a){
-        position = new Coordinate(a.position);
+        super(new Coordinate(a.getPosition()));
+        //position = new Coordinate(a.position);
         angle = a.angle;
     }
 

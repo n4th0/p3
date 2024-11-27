@@ -21,7 +21,6 @@ public class Square extends AbstractPolygon{
      * to 0 and the position as not defined {@link Coordinate}.
      */
 	public Square() {
-        position = new Coordinate();
 	}
 
     /**
@@ -33,10 +32,12 @@ public class Square extends AbstractPolygon{
      * @param y double side
      */
 	public Square(Coordinate c, double x, double y) { 
+        super();
+        this.move(new Coordinate(c));
         if (y<0) 
             throw new IllegalArgumentException();
 
-        position = new Coordinate(c);
+        //position = new Coordinate(c);
         this.rotate(x);
         side = y;
 	}
@@ -48,7 +49,8 @@ public class Square extends AbstractPolygon{
      * @param c {@link Square}
      */
 	public Square(Square c) {
-        position = new Coordinate(c.position);
+        this.move(new Coordinate(c.getPosition()));
+        //position = new Coordinate(c.position);
         rotate(c.getAngle());
         side = c.side;
 	}

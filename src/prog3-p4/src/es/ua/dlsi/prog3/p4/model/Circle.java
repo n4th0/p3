@@ -23,8 +23,9 @@ public class Circle extends Shape2D{
      * and the position as not defined {@link Coordinate}.
      */
 	public Circle() {
+        super(new Coordinate());
         radius = 0;
-        position = new Coordinate();
+        // position = new Coordinate();
 	}
 
     /**
@@ -35,10 +36,11 @@ public class Circle extends Shape2D{
      * @param d double 
      */
 	public Circle(Coordinate c, double d) {
+        super(new Coordinate(c));
         if (d<0) 
             throw new IllegalArgumentException("negative radius");
         radius = d;
-        position = new Coordinate(c);
+        // position = new Coordinate(c);
 	}
 
     /**
@@ -48,7 +50,8 @@ public class Circle extends Shape2D{
      * @param c {@link Circle}
      */
 	public Circle(Circle c) {
-        this.position = new Coordinate(c.position);
+        super(new Coordinate(c.getPosition()));
+        // this.position = new Coordinate(c.position);
         this.radius = c.radius;
 	}
 

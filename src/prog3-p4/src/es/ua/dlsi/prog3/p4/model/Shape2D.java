@@ -17,7 +17,7 @@ public abstract class Shape2D {
      * Instance atribute: position.
      * A simple agreation with the class {@link Coordinate}. 
      */
-    Coordinate position;
+    private Coordinate position;
 
     /**
      * Instance method: Shape2D.
