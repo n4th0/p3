@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="922px" preserveAspectRatio="none" style="width:1043px;height:922px;background:#FFFFFF;" version="1.1" viewBox="0 0 1043 922" width="1043px" zoomAndPan="magnify"><defs/><g><!--MD5=[751efe2407928a0d3c6cd195585a128e]
+class PieceType--><g id="elem_PieceType"><rect codeLine="4" fill="#F1F1F1" height="89.5977" id="PieceType" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="74" x="49.35" y="584"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="44" x="64.35" y="600.6016">«enum»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="52.35" y="616.668">PieceType</text><line style="stroke:#181818;stroke-width:0.5;" x1="50.35" x2="122.35" y1="624.6211" y2="624.6211"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="55.35" y="642.1563">I</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="7" x="55.35" y="658.6445">L</text><line style="stroke:#181818;stroke-width:0.5;" x1="50.35" x2="122.35" y1="665.5977" y2="665.5977"/></g><!--MD5=[61ba0ca66d1a1c02bd08c8b9838d8fcd]
+class Rotation--><g id="elem_Rotation"><rect codeLine="9" fill="#F1F1F1" height="122.5742" id="Rotation" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="64" x="442.35" y="793"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="44" x="452.35" y="809.6016">«enum»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="58" x="445.35" y="825.668">Rotation</text><line style="stroke:#181818;stroke-width:0.5;" x1="443.35" x2="505.35" y1="833.6211" y2="833.6211"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="19" x="448.35" y="851.1563">D0</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="448.35" y="867.6445">D270</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="448.35" y="884.1328">D180</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="28" x="448.35" y="900.6211">D90</text><line style="stroke:#181818;stroke-width:0.5;" x1="443.35" x2="505.35" y1="907.5742" y2="907.5742"/></g><!--MD5=[4677945cbc35948855acb7ee6a11c7a3]
+class PieceI--><g id="elem_PieceI"><rect codeLine="16" fill="#F1F1F1" height="174.3945" id="PieceI" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="219" x="492.85" y="542"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="582.85" y="560.5352">PieceI</text><line style="stroke:#181818;stroke-width:0.5;" x1="493.85" x2="710.85" y1="568.4883" y2="568.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="91" x="498.85" y="586.0234">-symbol = '#'</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="207" x="498.85" y="602.5117">-BOUNDING_SQUARE_SIZE = 4</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="95" x="498.85" y="619">-shape: int[][]</text><line style="stroke:#181818;stroke-width:0.5;" x1="493.85" x2="710.85" y1="625.9531" y2="625.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="498.85" y="643.4883">+PieceI()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="99" x="498.85" y="659.9766">+PieceI(PieceI)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="187" x="498.85" y="676.4648">+getOrientation(): Rotation</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="498.85" y="692.9531">+getShape(): int[][]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="498.85" y="709.4414">+toString(): String</text></g><!--MD5=[889074a812fe197f94b9297ea89887ca]
+class PieceL--><g id="elem_PieceL"><rect codeLine="27" fill="#F1F1F1" height="174.3945" id="PieceL" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="219" x="238.85" y="542"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="42" x="327.35" y="560.5352">PieceL</text><line style="stroke:#181818;stroke-width:0.5;" x1="239.85" x2="456.85" y1="568.4883" y2="568.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="94" x="244.85" y="586.0234">-symbol = '@'</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="207" x="244.85" y="602.5117">-BOUNDING_SQUARE_SIZE = 4</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="95" x="244.85" y="619">-shape: int[][]</text><line style="stroke:#181818;stroke-width:0.5;" x1="239.85" x2="456.85" y1="625.9531" y2="625.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="244.85" y="643.4883">+PieceL()</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="105" x="244.85" y="659.9766">+PieceL(PieceL)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="187" x="244.85" y="676.4648">+getOrientation(): Rotation</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="244.85" y="692.9531">+getShape(): int[][]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="244.85" y="709.4414">+toString(): String</text></g><!--MD5=[8c7d7abc12e214c3cc12c9ab70edee11]
+class Coordinate--><g id="elem_Coordinate"><rect codeLine="38" fill="#F1F1F1" height="141.418" id="Coordinate" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="150" x="670.35" y="291"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="706.85" y="309.5352">Coordinate</text><line style="stroke:#181818;stroke-width:0.5;" x1="671.35" x2="819.35" y1="317.4883" y2="317.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="676.35" y="335.0234">-row: int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="85" x="676.35" y="351.5117">-column: int</text><line style="stroke:#181818;stroke-width:0.5;" x1="671.35" x2="819.35" y1="358.4648" y2="358.4648"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="138" x="676.35" y="376">+Coordinate(int,int)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="676.35" y="392.4883">+getRow(): int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="123" x="676.35" y="408.9766">+getColumn(): int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="676.35" y="425.4648">+toString(): String</text></g><!--MD5=[9563755d011c5cec7ec66dc53565a59e]
+class Board--><g id="elem_Board"><rect codeLine="47" fill="#F1F1F1" height="207.3711" id="Board" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="325" x="238.85" y="258"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="381.35" y="276.5352">Board</text><line style="stroke:#181818;stroke-width:0.5;" x1="239.85" x2="562.85" y1="284.4883" y2="284.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="244.85" y="302.0234">-height: int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="72" x="244.85" y="318.5117">-width: int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="163" x="244.85" y="335">-gameboard : Object[][]</text><line style="stroke:#181818;stroke-width:0.5;" x1="239.85" x2="562.85" y1="341.9531" y2="341.9531"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="244.85" y="359.4883">+Board(int,int)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="114" x="244.85" y="375.9766">+getHeight(): int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="108" x="244.85" y="392.4648">+getWidth(): int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="313" x="244.85" y="408.9531">+putPiece(Coordiante,PieceType,Object): void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="184" x="244.85" y="425.4414">+removePiece(Object):void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="244" x="244.85" y="441.9297">+copyOfPieceAt(Coordinate):Object</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="244.85" y="458.418">+toString(): String</text></g><!--MD5=[b6dcce5e5ef3c84b0b048d11301373dd]
+class Game--><g id="elem_Game"><rect codeLine="60" fill="#F1F1F1" height="174.3945" id="Game" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="234" x="284.35" y="7"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="39" x="381.85" y="25.5352">Game</text><line style="stroke:#181818;stroke-width:0.5;" x1="285.35" x2="517.35" y1="33.4883" y2="33.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="145" x="290.35" y="51.0234">-currentPiece: Object</text><line style="stroke:#181818;stroke-width:0.5;" x1="285.35" x2="517.35" y1="57.9766" y2="57.9766"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="290.35" y="75.5117">+Game(int,int)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="187" x="290.35" y="92">+rotateCurrentPiece(): void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="208" x="290.35" y="108.4883">+moveCurrentPieceLeft(): void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="219" x="290.35" y="124.9766">+moveCurrentPieceRight(): void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="222" x="290.35" y="141.4648">+moveCurrentPieceDown(): void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="192" x="290.35" y="157.9531">+nextPiece(PieceTpye): void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="290.35" y="174.4414">+toString(): String</text></g><!--MD5=[8db60afef7a3447bbe27c5ed187fdac2]
+class Exception--><g id="elem_Exception"><rect codeLine="84" fill="#F1F1F1" height="42.4883" id="Exception" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="74" x="909.35" y="73"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="912.35" y="91.5352">Exception</text><line style="stroke:#181818;stroke-width:0.5;" x1="910.35" x2="982.35" y1="99.4883" y2="99.4883"/><line style="stroke:#181818;stroke-width:0.5;" x1="910.35" x2="982.35" y1="107.4883" y2="107.4883"/></g><!--MD5=[8ecba4f19292161b6482cfae110206cb]
+class TetrisException--><g id="elem_TetrisException"><rect codeLine="86" fill="#F1F1F1" height="58.9766" id="TetrisException" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="181" x="855.85" y="332"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="892.85" y="350.5352">TetrisException</text><line style="stroke:#181818;stroke-width:0.5;" x1="856.85" x2="1035.85" y1="358.4883" y2="358.4883"/><line style="stroke:#181818;stroke-width:0.5;" x1="856.85" x2="1035.85" y1="366.4883" y2="366.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="169" x="861.85" y="384.0234">+TetrisException(String)</text></g><!--MD5=[35a3a35d79f890b6972933f8e96228e3]
+link Board to PieceI--><g id="link_Board_PieceI"><path codeLine="71" d="M486.3079,474.7214 C486.3079,474.7214 515.53,513.31 529.25,531.44 " fill="none" id="Board-PieceI" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="537.24,541.99,534.9936,532.4007,534.2207,538.0045,528.6169,537.2316,537.24,541.99" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="534.2207" x2="529.39" y1="538.0045" y2="531.62"/><polygon fill="none" points="479.07,465.15,479.4985,472.3484,486.3079,474.7214,485.8794,467.5231,479.07,465.15" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="6" x="525.174" y="531.1373">*</text></g><!--MD5=[41b11e02d4df33100414e93b01120070]
+link Board to PieceL--><g id="link_Board_PieceL"><path codeLine="72" d="M378.5117,476.918 C378.5117,476.918 371.45,512.31 368.14,528.88 " fill="none" id="Board-PieceL" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="365.52,541.99,371.2039,533.9468,366.4985,537.0867,363.3586,532.3812,365.52,541.99" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="366.4985" x2="368.07" y1="537.0867" y2="529.24"/><polygon fill="none" points="380.86,465.15,375.7632,470.2512,378.5117,476.918,383.6085,471.8168,380.86,465.15" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="6" x="360.782" y="531.1373">*</text></g><!--MD5=[32f58cb7951663fe1cce0464fae6db59]
+link Board to PieceType--><g id="link_Board_PieceType"><path codeLine="73" d="M270.3969,472.8865 C270.3969,472.8865 169.65,557.79 133.6,588.18 " fill="none" id="Board-PieceType" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="123.4,596.78,132.861,594.0433,127.2248,593.5597,127.7084,587.9235,123.4,596.78" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="127.2248" x2="133.34" y1="593.5597" y2="588.4"/><polygon fill="none" points="279.57,465.15,272.4046,465.9606,270.3969,472.8865,277.5623,472.076,279.57,465.15" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="70" x="247.35" y="508.5684">piecesType</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="6" x="131.2848" y="586.5987">*</text></g><!--MD5=[15c8f9ca3aac13d865864b4eb5314ef1]
+link Game to Board--><g id="link_Game_Board"><path codeLine="75" d="M401.35,193.2 C401.35,193.2 401.35,227.63 401.35,244.32 " fill="none" id="Game-Board" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="401.35,257.61,405.35,248.61,401.35,252.61,397.35,248.61,401.35,257.61" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="401.35" x2="401.35" y1="252.61" y2="244.61"/><polygon fill="#181818" points="401.35,181.2,397.35,187.2,401.35,193.2,405.35,187.2,401.35,181.2" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="36" x="404.35" y="224.5684">board</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="393.0687" y="247.3441">1</text></g><!--MD5=[7701917c95ef95748d1e4e9adb4fa6e9]
+link Game to PieceI--><g id="link_Game_PieceI"><path codeLine="76" d="M527.1555,184.9423 C527.1555,184.9423 568.61,231.33 581.35,258 C621.87,342.78 622.99,451.26 616.48,528.79 " fill="none" id="Game-PieceI" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="615.28,541.93,620.0835,533.332,615.7356,536.9508,612.1168,532.6029,615.28,541.93" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="615.7356" x2="616.465" y1="536.9508" y2="528.985"/><polygon fill="none" points="518.52,176.61,520.0603,183.6547,527.1555,184.9423,525.6152,177.8976,518.52,176.61" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="24" x="591.3599" y="531.3676">0..1</text></g><!--MD5=[a0de22a9753082b3e2b7afb971c6c285]
+link Game to PieceL--><g id="link_Game_PieceL"><path codeLine="77" d="M275.5986,183.6454 C275.5986,183.6454 233.77,230.62 221.35,258 C174.71,360.82 171,409.05 217.35,512 C221,520.1 225.52,527.86 230.67,535.25 " fill="none" id="Game-PieceL" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="238.63,545.82,236.4152,536.2234,235.6238,541.8246,230.0226,541.0332,238.63,545.82" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="235.6238" x2="230.805" y1="541.8246" y2="535.435"/><polygon fill="none" points="284.26,175.34,277.1608,176.6056,275.5986,183.6454,282.6978,182.3798,284.26,175.34" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="24" x="206.8323" y="537.5765">0..1</text></g><!--MD5=[38254001676575558df7f8c3f108256f]
+link Game to PieceType--><g id="link_Game_PieceType"><path codeLine="78" d="M272.5339,122.0609 C272.5339,122.0609 111.18,186.34 66.35,258 C6,354.48 38.61,494.3 64.52,571.49 " fill="none" id="Game-PieceType" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="68.77,583.78,69.613,573.9673,67.1378,579.0539,62.0512,576.5787,68.77,583.78" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="67.1378" x2="64.52" y1="579.0539" y2="571.495"/><polygon fill="none" points="284.03,118.62,277.135,116.5084,272.5339,122.0609,279.4289,124.1725,284.03,118.62" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="107" x="69.35" y="366.5684">currentPieceType</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="57.4656" y="573.3302">1</text></g><!--MD5=[38c50a8ee4193cef2ba89eed25959423]
+link Game to Coordinate--><g id="link_Game_Coordinate"><path codeLine="79" d="M529.5884,141.3448 C529.5884,141.3448 610.44,182.74 643.35,211 C665.78,230.26 685.5,255.56 701.48,279.85 " fill="none" id="Game-Coordinate" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="708.55,290.92,707.0755,281.1821,705.8582,286.7064,700.3339,285.4891,708.55,290.92" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="705.8582" x2="701.545" y1="286.7064" y2="279.96"/><polygon fill="none" points="518.65,136.41,522.4742,142.5235,529.5884,141.3448,525.7641,135.2313,518.65,136.41" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="96" x="664.35" y="224.5684">currentPosition</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="696.3425" y="280.4308">1</text></g><!--MD5=[7d6af9ca7f228360fdfbecf95f0351f5]
+link PieceI to Rotation--><g id="link_PieceI_Rotation"><path codeLine="81" d="M547.0907,726.5057 C547.0907,726.5057 523.61,767.5 513.04,785.95 " fill="none" id="PieceI-Rotation" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="506.45,797.46,514.3914,791.6347,508.9331,793.1201,507.4476,787.6618,506.45,797.46" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="508.9331" x2="512.91" y1="793.1201" y2="786.18"/><polygon fill="#181818" points="553.05,716.09,546.5984,719.3114,547.0907,726.5057,553.5422,723.2843,553.05,716.09" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="538.35" y="759.5684">orientation</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="513.5572" y="782.3945">1</text></g><!--MD5=[2d7f03e8f0454fb3d3a1c0c4c96ba014]
+link PieceL to Rotation--><g id="link_PieceL_Rotation"><path codeLine="82" d="M402.7825,726.5436 C402.7825,726.5436 425.55,766.94 435.8,785.11 " fill="none" id="PieceL-Rotation" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="442.2,796.46,441.2652,786.6556,439.7448,792.1043,434.2961,790.584,442.2,796.46" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="439.7448" x2="435.815" y1="792.1043" y2="785.135"/><polygon fill="#181818" points="396.89,716.09,396.3517,723.281,402.7825,726.5436,403.3208,719.3526,396.89,716.09" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="69" x="426.35" y="759.5684">orientation</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="8" x="427.7608" y="782.4196">1</text></g><!--MD5=[abeeafb32fd12d9c42b46591b54bce5b]
+reverse link Exception to TetrisException--><g id="link_Exception_TetrisException"><path codeLine="90" d="M946.35,135.57 C946.35,189.76 946.35,284.42 946.35,331.79 " fill="none" id="Exception-backto-TetrisException" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="939.35,135.39,946.35,115.39,953.35,135.39,939.35,135.39" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[4f0055f7490105f4e01026ce4549eedc]
+@startuml
+skinparam classAttributeIconSize 0
+hide circle
+
+enum PieceType <<enum>> {
+I
+L
+}
+
+enum Rotation <<enum>> {
+D0
+D270
+D180
+D90
+}
+
+class PieceI {
+{static} -symbol = '#'
+{static} -BOUNDING_SQUARE_SIZE = 4
+{static} -shape: int[][]
++PieceI()
++PieceI(PieceI)
++getOrientation(): Rotation
++getShape(): int[][]
++toString(): String
+}
+
+class PieceL {
+{static} -symbol = '@'
+{static} -BOUNDING_SQUARE_SIZE = 4
+{static} -shape: int[][]
++PieceL()
++PieceL(PieceL)
++getOrientation(): Rotation
++getShape(): int[][]
++toString(): String
+}
+
+class Coordinate {
+-row: int
+-column: int
++Coordinate(int,int)
++getRow(): int
++getColumn(): int
++toString(): String
+}
+
+class Board {
+-height: int
+-width: int
+-gameboard : Object[][]
++Board(int,int)
++getHeight(): int
++getWidth(): int
++putPiece(Coordiante,PieceType,Object): void
++removePiece(Object):void
++copyOfPieceAt(Coordinate):Object
++toString(): String
+}
+
+class Game {
+-currentPiece: Object
++Game(int,int)
++rotateCurrentPiece(): void
++moveCurrentPieceLeft(): void
++moveCurrentPieceRight(): void
++moveCurrentPieceDown(): void
++nextPiece(PieceTpye): void
++toString(): String
+}
+
+Board o- -> "*" PieceI 
+Board o- -> "*" PieceL 
+Board o- -> "*" PieceType: -piecesType
+
+Game *- -> "1" Board: -board
+Game o- -> "0..1" PieceI 
+Game o- -> "0..1" PieceL 
+Game o- -> "1" PieceType: -currentPieceType
+Game o- -> "1" Coordinate: -currentPosition
+
+PieceI *- -> "1" Rotation: -orientation
+PieceL *- -> "1" Rotation: -orientation
+
+class Exception {}
+
+class TetrisException{
++TetrisException(String)
+}
+
+Exception <|- - TetrisException
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>

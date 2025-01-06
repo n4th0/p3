@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="818px" preserveAspectRatio="none" style="width:768px;height:818px;background:#FFFFFF;" version="1.1" viewBox="0 0 768 818" width="768px" zoomAndPan="magnify"><defs/><g><!--MD5=[1161471e7573692ccdad243d8d74e430]
+cluster es.ua.dlsi.restaurant--><g id="cluster_es.ua.dlsi.restaurant"><path d="M30.47,132 L174.47,132 A3.75,3.75 0 0 1 176.97,134.5 L183.97,154.4883 L759.47,154.4883 A2.5,2.5 0 0 1 761.97,156.9883 L761.97,808.5 A2.5,2.5 0 0 1 759.47,811 L30.47,811 A2.5,2.5 0 0 1 27.97,808.5 L27.97,134.5 A2.5,2.5 0 0 1 30.47,132 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="27.97" x2="183.97" y1="154.4883" y2="154.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="143" x="31.97" y="147.5352">es.ua.dlsi.restaurant</text></g><!--MD5=[aa8f7b917213fcc1c2766e2d59b49067]
+cluster java.lang--><g id="cluster_java.lang"><path d="M272.47,6 L336.47,6 A3.75,3.75 0 0 1 338.97,8.5 L345.97,28.4883 L498.47,28.4883 A2.5,2.5 0 0 1 500.97,30.9883 L500.97,96.5 A2.5,2.5 0 0 1 498.47,99 L272.47,99 A2.5,2.5 0 0 1 269.97,96.5 L269.97,8.5 A2.5,2.5 0 0 1 272.47,6 " fill="none" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="269.97" x2="345.97" y1="28.4883" y2="28.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="63" x="273.97" y="21.5352">java.lang</text></g><!--MD5=[44a1b4afaef76c16e6c9ec4990ad0c8d]
+class Item--><g id="elem_Item"><rect codeLine="6" fill="#F1F1F1" height="207.3711" id="Item" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="248" x="497.97" y="402"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="30" x="606.97" y="420.5352">Item</text><line style="stroke:#181818;stroke-width:0.5;" x1="498.97" x2="744.97" y1="428.4883" y2="428.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" text-decoration="underline" textLength="119" x="503.97" y="446.0234">-NEXT_ID: int = 1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="503.97" y="462.5117">-name: String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="503.97" y="479">-price: double</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="503.97" y="495.4883">-id: int</text><line style="stroke:#181818;stroke-width:0.5;" x1="498.97" x2="744.97" y1="502.4414" y2="502.4414"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="236" x="503.97" y="519.9766">+Item(name: String, price: double)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="126" x="503.97" y="536.4648">+Item(other: Item)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="96" x="503.97" y="552.9531">+clone(): Item</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="503.97" y="569.4414">+getName(): String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="125" x="503.97" y="585.9297">+getPrice(): String</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="503.97" y="602.418">+getId(): int</text></g><!--MD5=[46a869ae9a533cd0f135276579d5ca7a]
+class Meal--><g id="elem_Meal"><rect codeLine="21" fill="#F1F1F1" height="124.9297" id="Meal" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="343" x="402.47" y="670"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="557.97" y="688.5352">Meal</text><line style="stroke:#181818;stroke-width:0.5;" x1="403.47" x2="744.47" y1="696.4883" y2="696.4883"/><line style="stroke:#181818;stroke-width:0.5;" x1="403.47" x2="744.47" y1="704.4883" y2="704.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="331" x="408.47" y="722.0234">+Meal(name: String, price: double, items: Item[])</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="130" x="408.47" y="738.5117">+Meal(other: Meal)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="98" x="408.47" y="755">+clone(): Meal</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="200" x="408.47" y="771.4883">#initItems(items: Item[]): void</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="408.47" y="787.9766">+getItems(): Item[]</text></g><!--MD5=[2ce0c9fb7f55b1e256ab28a8ea6b25ec]
+class Customer--><g id="elem_Customer"><rect codeLine="32" fill="#F1F1F1" height="174.3945" id="Customer" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="234" x="273.97" y="167"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="357.47" y="185.5352">Customer</text><line style="stroke:#181818;stroke-width:0.5;" x1="274.97" x2="506.97" y1="193.4883" y2="193.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="279.97" y="211.0234">-id: int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="279.97" y="227.5117">-name: String</text><line style="stroke:#181818;stroke-width:0.5;" x1="274.97" x2="506.97" y1="234.4648" y2="234.4648"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="222" x="279.97" y="252">+Customer(id: int, name: String)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="170" x="279.97" y="268.4883">+Customer(c: Customer)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="279.97" y="284.9766">~add(order: Order)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="148" x="279.97" y="301.4648">+getOrders(): Order[]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="279.97" y="317.9531">+getId(): int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="131" x="279.97" y="334.4414">+getName(): String</text></g><!--MD5=[cf4d6237fcae255cd2e1656cf84a30e2]
+class Order--><g id="elem_Order"><rect codeLine="43" fill="#F1F1F1" height="124.9297" id="Order" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="382" x="80.97" y="443"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="251.97" y="461.5352">Order</text><line style="stroke:#181818;stroke-width:0.5;" x1="81.97" x2="461.97" y1="469.4883" y2="469.4883"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="77" x="86.97" y="487.0234">-date: Date</text><line style="stroke:#181818;stroke-width:0.5;" x1="81.97" x2="461.97" y1="493.9766" y2="493.9766"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="370" x="86.97" y="511.5117">+Order(date: Date, customer: Customer, items: Item[])</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="118" x="86.97" y="528">+Order(o: Order)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="113" x="86.97" y="544.4883">+getDate(): Date</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="128" x="86.97" y="560.9766">+getItems(): Item[]</text></g><!--MD5=[4fc364bf1c677fd2c26d2f3a16102f61]
+class EmptyInputException--><g id="elem_EmptyInputException"><rect codeLine="52" fill="#F1F1F1" height="42.4883" id="EmptyInputException" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="152" x="86.97" y="233"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="146" x="89.97" y="251.5352">EmptyInputException</text><line style="stroke:#181818;stroke-width:0.5;" x1="87.97" x2="237.97" y1="259.4883" y2="259.4883"/><line style="stroke:#181818;stroke-width:0.5;" x1="87.97" x2="237.97" y1="267.4883" y2="267.4883"/></g><!--MD5=[008d82c49f85b4d489e041917c99c847]
+class java.lang.Comparable--><g id="elem_java.lang.Comparable"><rect fill="#F1F1F1" height="42.4883" id="java.lang.Comparable" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="90" x="394.97" y="41"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="397.97" y="59.5352">Comparable</text><line style="stroke:#181818;stroke-width:0.5;" x1="395.97" x2="483.97" y1="67.4883" y2="67.4883"/><line style="stroke:#181818;stroke-width:0.5;" x1="395.97" x2="483.97" y1="75.4883" y2="75.4883"/></g><!--MD5=[46c05dfe24a0851e179497c4631d3ff2]
+class java.lang.Exception--><g id="elem_java.lang.Exception"><rect fill="#F1F1F1" height="42.4883" id="java.lang.Exception" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="74" x="285.97" y="41"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="288.97" y="59.5352">Exception</text><line style="stroke:#181818;stroke-width:0.5;" x1="286.97" x2="358.97" y1="67.4883" y2="67.4883"/><line style="stroke:#181818;stroke-width:0.5;" x1="286.97" x2="358.97" y1="75.4883" y2="75.4883"/></g><!--MD5=[d4e8fa2a27f923da9fb0326d2cef37b1]
+reverse link java.lang.Comparable to Item--><g id="link_java.lang.Comparable_Item"><path codeLine="19" d="M496.79,94.58 C507.8,102.91 518.28,112.77 525.97,124 C582.66,206.77 605.89,320.21 615.41,401.65 " fill="none" id="java.lang.Comparable-backto-Item" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="none" points="492.58,100.18,479.99,83.13,500.46,88.61,492.58,100.18" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="128" x="606.97" y="259.0684">«bind» &lt;T -&gt; Item&gt;</text></g><!--MD5=[755e001349a1adf094c251d95c08c7a8]
+reverse link Item to Meal--><g id="link_Item_Meal"><path codeLine="29" d="M583.11,629.1 C580.23,643.2 577.67,657.09 575.61,669.87 " fill="none" id="Item-backto-Meal" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="576.35,627.22,587.37,609.12,590.05,630.14,576.35,627.22" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[1f6fcb315daaabaa7dd00088ea80447e]
+link Meal to Item--><g id="link_Meal_Item"><path codeLine="30" d="M602.3321,658.2568 C602.3321,658.2568 608.21,634.09 610.76,622.29 " fill="none" id="Meal-Item" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="613.53,609.12,607.7667,617.1065,612.503,614.0134,615.5961,618.7497,613.53,609.12" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="612.503" x2="610.855" y1="614.0134" y2="621.845"/><polygon fill="none" points="599.31,669.87,604.6921,665.0707,602.3321,658.2568,596.95,663.056,599.31,669.87" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="6" x="606.6899" y="629.8465">*</text></g><!--MD5=[5c9879eea0f1e4f502b80959aa1822eb]
+reverse link java.lang.Exception to EmptyInputException--><g id="link_java.lang.Exception_EmptyInputException"><path codeLine="55" d="M284.07,96.61 C274.84,105.2 265.28,114.67 256.97,124 C224.92,160.02 193.01,206.67 175.86,232.86 " fill="none" id="java.lang.Exception-backto-EmptyInputException" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="none" points="279.46,91.34,299,83.13,288.84,101.73,279.46,91.34" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[135794f54b59c9e5883929d048383f81]
+link Customer to Order--><g id="link_Customer_Order"><path codeLine="57" d="M344.6795,352.039 C344.6795,352.039 318.79,406.34 307.2,430.64 " fill="none" id="Customer-Order" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="301.46,442.68,308.9475,436.2818,303.6144,438.1679,301.7282,432.8348,301.46,442.68" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="303.6144" x2="307.055" y1="438.1679" y2="430.94"/><polygon fill="#181818" points="349.85,341.21,343.6551,344.901,344.6795,352.039,350.8744,348.348,349.85,341.21" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="6" x="298.5229" y="432.1396">*</text></g><!--MD5=[c1d53365aa981b4855aab454c64fdd90]
+link Order to Item--><g id="link_Order_Item"><path codeLine="58" d="M475.03,505.5 C475.03,505.5 481.73,505.5 484.56,505.5 " fill="none" id="Order-Item" style="stroke:#181818;stroke-width:1.0;"/><polygon fill="#181818" points="497.8,505.5,488.8,501.5,492.8,505.5,488.8,509.5,497.8,505.5" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="492.8" x2="484.8" y1="505.5" y2="505.5"/><polygon fill="none" points="463.03,505.5,469.03,509.5,475.03,505.5,469.03,501.5,463.03,505.5" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="6" x="484.0506" y="502.6095">*</text></g><!--MD5=[a86d6b2990cf81bfa079cc792a476117]
+reverse link EmptyInputException to Order--><g id="link_EmptyInputException_Order"><path codeLine="60" d="M174.02,280.29 C190.53,318.09 222.15,390.46 245,442.77 " fill="none" id="EmptyInputException-backto-Order" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="171.89,275.42,171.8215,285.2686,173.8888,280.0031,179.1544,282.0705,171.89,275.42" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[d0edc6f74e9b6703bb399b6b34ce1217]
+reverse link EmptyInputException to Meal--><g id="link_EmptyInputException_Meal"><path codeLine="61" d="M139.68,279.12 C115.12,306.39 77.95,353.36 62.97,402 C35.9,489.93 6,536.76 62.97,609 C104.99,662.28 270.7,695 402.18,713.07 " fill="none" id="EmptyInputException-backto-Meal" style="stroke:#181818;stroke-width:1.0;stroke-dasharray:7.0,7.0;"/><polygon fill="#181818" points="143.21,275.24,134.1916,279.1984,139.8424,278.9358,140.1049,284.5866,143.21,275.24" style="stroke:#181818;stroke-width:1.0;"/></g><!--MD5=[3d0ea0184d227722f9e90998e769629d]
+@startuml "restaurant"
+hide circle
+skinparam classAttributeIconSize 0
+
+package es.ua.dlsi.restaurant {
+
+    class Item {       
+        -{static} NEXT_ID: int = 1
+        -name: String
+        -price: double
+        -id: int
+        +Item(name: String, price: double)
+        +Item(other: Item)
+        +clone(): Item  
+        +getName(): String      
+        +getPrice(): String
+        +getId(): int
+    }
+
+    java.lang.Comparable <|. Item : <<bind>> <T -> Item>
+
+    class Meal {     
+        +Meal(name: String, price: double, items: Item[])
+        +Meal(other: Meal)
+        +clone(): Meal   
+        #initItems(items: Item[]): void
+        +getItems(): Item[]        
+    }
+
+    Item <|- - Meal
+    Meal o- -> "*" Item
+
+    class Customer {
+        -id: int
+        -name: String
+        +Customer(id: int, name: String)
+        +Customer(c: Customer)
+        ~add(order: Order)
+        +getOrders(): Order[]
+        +getId(): int
+        +getName(): String
+    }
+
+    class Order {
+        -date: Date
+        +Order(date: Date, customer: Customer, items: Item[])
+        +Order(o: Order)
+        +getDate(): Date
+        +getItems(): Item[]
+    }
+
+
+    class EmptyInputException {  
+    }
+
+    java.lang.Exception <|- - EmptyInputException
+
+    Customer *- -> "*" Order
+    Order o-> "*" Item
+    
+    EmptyInputException <.. Order
+    EmptyInputException <.. Meal
+}
+
+@enduml
+
+PlantUML version 1.2022.7(Mon Aug 22 19:01:30 CEST 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: es
+Country: ES
+--></g></svg>
